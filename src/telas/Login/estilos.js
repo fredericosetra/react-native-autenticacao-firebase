@@ -7,5 +7,15 @@ export default StyleSheet.create({
     justifyContent: "flex-start",
     paddingTop: 25,
     paddingHorizontal: 20,
-  }
+  },
+  containerAnimacao: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "white",
+  },
+  imagem: {
+    width: 400,
+    height: 400,
+  },
 });
